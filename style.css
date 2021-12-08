@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #a365a9;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+/*body{
+    width:100%;
+    max-width:1980px;
+    min-width:1980px;
+    float:center;
+}*/
+/*//////////////////////////////////////////// HEADER /////////////////////////////////////////////////*/
+header{
+    background-color:#56126c;
+    height:210px;
+    width:100%;
+    display: block;
+    float: left;
+}
+nav{
+    background-color:#a365a9;
+    width: 100%;
+    height:45px;
+    float:left;
+    display: block;
+}
+.logo{
+    height:70%;
+    width:7%;
+    position: relative;
+    top:10px;
+    margin-left: 1.5%;
+}
+.laco1{
+    height:40px;
+    width:45%;
+    float: left;
+    display: block;
+    background-color: black;
+    position: relative;
+    top:47px;
+    border-radius:0px 30px 30px 0px;
+}
+.laco1 div{
+    height: 15px;
+    width: 98.5%;
+    float:left;
+    display: block;
+    margin-top:12.5px;
+    background-color:#a365a9;
+    border-radius: 0px 5px 5px 0px;
+}
+.laco2{
+    height:40px;
+    width:45%;
+    display: block;
+    background-color: black;
+    border-radius:30px 0px 0px 30px;
+    position: relative;
+    top:47px;
+    float: right;
+}
+.laco2 div{
+    height: 15px;
+    width: 98.5%;
+    float:right;
+    display: block;
+    margin-top:12.5px;
+    background-color:#a365a9;
+    border-radius: 5px 0px 0px 5px;
+}
+header nav ul{
+    float: left;
+    margin-left: 5px;
+}
+header nav ul li{
+    float: left;
+    list-style:none;
+    padding-left:16px;
+    font-size:20px;
+    padding-top:11px;
+    padding-bottom:12px;
+    padding-right:16px;
+}
+header nav ul li:hover{
+    background-color:#56126c;
+    color: white;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    float: right;
+    width:250px;
+    height:35px;
+    margin-top:2.5px;
+    margin-right:2.5px;
+    border-radius:5px;
+    padding-left:5px;
+}
+.lupa{
+    height: 30px;
+    float: right;
+    margin-right: -255px;
+    margin-top:7px;
+}
+.casinha{
+    height:45px;
+    float: left;
+    margin-left:5px;
+}
+
+
+
+
+/** CELULAR */
+
+
+@media only screen and (min-width: 1207px){
+    main aside{
+        width: 17%;
+        aspect-ratio: 1/5.31;
+        float: left;
+        background-color: #56126c;
+        margin-left: 2.5%;
+        margin-top: 40px;
+        border-radius: 4px;
+    } /**  aside */
+    #recomendados{
+        width: 100%;
+        height: 70px;
+        float: left;
+        background-color: #c68fda;
+        margin-left: 0px;
+        margin-top: 16px;
+    } /**  barra escura no topo */
+    #recomendadosTitulo{
+        width: 50%;
+        height: 50px;
+        float: left;
+        margin-left: 25%;
+        margin-top: 25px;
+    } /**  palavra recomendados no topo */
+    #container{
+        width: 89%;
+        aspect-ratio: 1/5.44;
+        float: left;
+        background-color: #600b7c;
+        margin-left: 5.5%;
+        margin-top: 5.5%;
+        border-radius: 2%;
+    } /**  quadrado fora das cards */
+    .recomendado{
+        width: 89%;
+        aspect-ratio: 1/1.42;
+        background-color: #c786df;
+        margin-top: 9%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+    } /**  cards dos recomendados */
+    .imagemRecomendado{
+        object-fit: cover;
+        height: 60%;
+        width: 90%;
+        padding: 4.5%;
+        border-radius: 12px;
+    } /**  imagem dos recomendados */
+    .categorias{
+        width: 75%;
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 2.5%;
+        float: left;
+        background-color: #56126c;
+        border-radius: 4px;
+    } /**  quadrado que fica em cima das noticia */
+    .categoria{
+        width: 100%;
+        height: 70px;
+        float: left;
+        background-color: #c68fda;
+        margin-left: 0px;
+        margin-top: 16px;
+    } /**  quadrado que fica dentro da categoria */
+    .nomedacategoria{
+        width: 50%;
+        height: 50px;
+        float: left;
+        margin-left: 43%;
+        margin-top: 22px;
+    } /**  titulo da categoria */
+    .noticias{
+        width: 75%;
+        aspect-ratio: 14/4;
+        margin-top: 40px;
+        margin-left: 2.5%;
+        float: left;
+        background-color: #56126c;
+        border-radius: 3px;
+    } /**  quadrado das noticia */
+    .noticia{
+        width: 13.5%;
+        aspect-ratio: 1/1.65;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 3%;
+        float: left;
+        background-color: #c786df;
+        display: block;
+        border-radius: 3px;
+    } /**  cards da noticia */
+    .popular{
+        width: 28%;
+        aspect-ratio: 4/3.18;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-bottom: 3%;
+        float: left;
+        background-color: #c786df;
+        border-radius: 3px;
+    } /** cards dos populares */
+    .imagemPopular{
+        object-fit: cover;
+        height: 60%;
+        width: 95%;
+        padding: 2.5%;
+        border-radius: 12px;
+    } /** imagem populares */
+    .imagemNoticia{
+        object-fit: cover;
+        height: 50%;
+        width: 90%;
+        padding: 5%;
+        border-radius: 12px;
+    } /** imagem noticias */
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: #56126c;
+        float: left;
+        position: relative;
+        top: 30px;
+    }
+    .noticia:hover{
+        transform: scale(1.2);
+        background-color: #e0a0f7;
+    }
+    .recomendado:hover{
+            transform: scale(1.2);
+            background-color: #e0a0f7;
+    }
+    .popular:hover{
+        transform: scale(1.2);
+        background-color: #e0a0f7;
+    }
+    #img6{
+        object-position: 50% 15%;
+    }
+    #img7{
+        object-position:0% 50%;
+    }
+    main section a div h2{
+        margin-left: 10px;
+        font-size: 21px;
+        margin-top: -10px;
+    }
+    main section a div p{
+        margin-left: 7px;
+        font-size: 15px;
+        text-align:left;
+    }
+}
+footer{
+    height: 200px;
+    width:100%;
+    float: left;
+    display: block;
+    background-color:#56126c;
+}
+.logocima{
+    height:130px;
+    float: left;
+    display: block;
+    padding-top:33px;
+}
+.logobaixo{
+    float: left;
+    height: 40px;
+    margin-top:80px;
+}
+footer h3{
+    margin-top:70px;
+    margin-left:670px;
+    font-size:40px;
+    width:620px;
+}
+.seta{
+    height: 120px;
+    float: right;
+    display: block;
+    margin-right:20px;
+    margin-top:37px;
+}

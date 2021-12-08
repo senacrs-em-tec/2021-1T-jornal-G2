@@ -1,0 +1,279 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+/*body{
+    width:100%;
+    max-width:1980px;
+    min-width:1980px;
+    float:center;
+}*/
+/*//////////////////////////////////////////// HEADER /////////////////////////////////////////////////*/
+header{
+    background-color:#56126c;
+    height:210px;
+    width:100%;
+    display: block;
+    float: left;
+}
+nav{
+    background-color:#a365a9;
+    width: 100%;
+    height:45px;
+    float:left;
+    display: block;
+}
+.logo{
+    height:70%;
+    width:7%;
+    position: relative;
+    top:10px;
+    margin-left: 1.5%;
+}
+.laco1{
+    height:40px;
+    width:45%;
+    float: left;
+    display: block;
+    background-color: black;
+    position: relative;
+    top:47px;
+    border-radius:0px 30px 30px 0px;
+}
+.laco1 div{
+    height: 15px;
+    width: 98.5%;
+    float:left;
+    display: block;
+    margin-top:12.5px;
+    background-color:#a365a9;
+    border-radius: 0px 5px 5px 0px;
+}
+.laco2{
+    height:40px;
+    width:45%;
+    display: block;
+    background-color: black;
+    border-radius:30px 0px 0px 30px;
+    position: relative;
+    top:47px;
+    float: right;
+}
+.laco2 div{
+    height: 15px;
+    width: 98.5%;
+    float:right;
+    display: block;
+    margin-top:12.5px;
+    background-color:#a365a9;
+    border-radius: 5px 0px 0px 5px;
+}
+header nav ul{
+    float: left;
+    margin-left: 5px;
+}
+header nav ul li{
+    float: left;
+    list-style:none;
+    padding-left:16px;
+    font-size:20px;
+    padding-top:11px;
+    padding-bottom:12px;
+    padding-right:16px;
+}
+header nav ul li:hover{
+    background-color:#56126c;
+    color: white;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    float: right;
+    width:250px;
+    height:35px;
+    margin-top:2.5px;
+    margin-right:2.5px;
+    border-radius:5px;
+    padding-left:5px;
+}
+.lupa{
+    height: 30px;
+    float: right;
+    margin-right: -255px;
+    margin-top:7px;
+}
+.casinha{
+    height:45px;
+    float: left;
+    margin-left:5px;
+}
+/*//////////////////////////////////////////// HEADER /////////////////////////////////////////////////*/
+main{
+    height:2500px;
+    width:100%;
+    background-color:#a365a9;
+    float: left;
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+main h1{
+    height: 50px;
+    width:90%;
+    margin-top:50px;
+    margin-left:10%;
+}
+main .bot{
+    background-color: #72418c;
+    margin-top:15px;
+    margin-left:8.5%;
+    width: 2.3%;
+    padding-left:12.5px;
+    display: block;
+    float:left;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:19.5px;
+    border-radius:5px;
+}
+.line{
+    height:1.5px;
+    background-color: black;
+    float: left;
+    display: block;
+    width:70.5%;
+    margin-left: 7.5%;
+    margin-top:10px;
+}
+.linha{
+    height: 85%;
+    width:1.5px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left:75.5%; 
+    float: left;
+    display:block;
+}
+article{
+    float: left;
+    display:block;
+    height:1800px;
+    width:64%;
+    margin-right:20%;
+    margin-top:-1640px;
+    margin-left:7.5%;
+}
+section{
+    height:1200px;
+    width:100%;
+    display:block;
+    float: left;
+    background-color: none;
+}
+article section .medigo{
+    object-fit: cover;
+    object-position:0px;
+    height:700px;
+    width:100%;
+    float: left;
+    display: block;
+    margin-top:-500px;
+}
+aside{
+    float: right;
+    display: block;
+    width:22%;
+    height:290px;
+    margin-top:-2300px;
+    margin-right:20px;
+}
+aside:hover{
+    color:#56126c;
+}
+aside img{
+    width:100%;
+    height:250px;
+    object-fit: cover;
+}
+aside h2{
+    height:60px;
+    width:90%;
+    margin-left:13%;
+    margin-top:3px;
+}
+.descrição{
+    font-size:12px;
+    margin-left:10px;
+    height:30px;
+    width:98%;
+    margin-top:10px;
+    float:left;
+    display:block;
+    color:#3f3f3f;
+}
+.lorem{
+    float: left;
+    display: block;
+    height:370px;
+    width:100%;
+    font-size:23px;
+}
+.lorem2{
+    display: block;
+    height:190px;
+    width:70%;
+    font-size:23px;
+    float: left;
+    margin-top:-200px;
+    margin-left:22%;
+}
+.text{
+    height:20px;
+    width:300px;
+    float: left;
+    display: block;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.subli{
+    text-decoration: black;
+    text-decoration: underline;
+}
+/*//////////////////////////////////////////// FOOTER /////////////////////////////////////////////////*/
+footer{
+    height: 200px;
+    width:100%;
+    float: left;
+    display: block;
+    background-color:#56126c;
+}
+.logocima{
+    height:130px;
+    float: left;
+    display: block;
+    padding-top:33px;
+}
+.logobaixo{
+    float: left;
+    height: 40px;
+    margin-top:80px;
+}
+footer h3{
+    margin-top:70px;
+    margin-left:37%;
+    font-size:40px;
+    width:620px;
+}
+.seta{
+    height: 120px;
+    float: right;
+    display: block;
+    margin-right:20px;
+    margin-top:37px;
+}
+/*//////////////////////////////////////////// FOOTER /////////////////////////////////////////////////*/
+/*roxo escuro:#3C1A7D
+roxo claro:#7B057E*/

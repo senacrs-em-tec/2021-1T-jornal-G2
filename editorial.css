@@ -1,0 +1,264 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/*body{
+    width:100%;
+    max-width:1980px;
+    min-width:1980px;
+    float:center;
+}*/
+/*//////////////////////////////////////////// HEADER /////////////////////////////////////////////////*/
+header{
+    background-color:#56126c;
+    height:210px;
+    width:100%;
+    display: block;
+    float: left;
+}
+nav{
+    background-color:#a365a9;
+    width: 100%;
+    height:45px;
+    float:left;
+    display: block;
+}
+.logo{
+    height:70%;
+    width:7%;
+    position: relative;
+    top:10px;
+    margin-left: 1.5%;
+}
+.laco1{
+    height:40px;
+    width:45%;
+    float: left;
+    display: block;
+    background-color: black;
+    position: relative;
+    top:47px;
+    border-radius:0px 30px 30px 0px;
+}
+.laco1 div{
+    height: 15px;
+    width: 98.5%;
+    float:left;
+    display: block;
+    margin-top:12.5px;
+    background-color:#a365a9;
+    border-radius: 0px 5px 5px 0px;
+}
+.laco2{
+    height:40px;
+    width:45%;
+    display: block;
+    background-color: black;
+    border-radius:30px 0px 0px 30px;
+    position: relative;
+    top:47px;
+    float: right;
+}
+.laco2 div{
+    height: 15px;
+    width: 98.5%;
+    float:right;
+    display: block;
+    margin-top:12.5px;
+    background-color:#a365a9;
+    border-radius: 5px 0px 0px 5px;
+}
+header nav ul{
+    float: left;
+    margin-left: 5px;
+}
+header nav ul li{
+    float: left;
+    list-style:none;
+    padding-left:16px;
+    font-size:20px;
+    padding-top:11px;
+    padding-bottom:12px;
+    padding-right:16px;
+}
+header nav ul li:hover{
+    background-color:#56126c;
+    color: white;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    float: right;
+    width:250px;
+    height:35px;
+    margin-top:2.5px;
+    margin-right:2.5px;
+    border-radius:5px;
+    padding-left:5px;
+}
+.lupa{
+    height: 30px;
+    float: right;
+    margin-right: -255px;
+    margin-top:7px;
+}
+.casinha{
+    height:45px;
+    float: left;
+    margin-left:5px;
+}
+/*//////////////////////////////////////////// HEADER /////////////////////////////////////////////////*/
+main{
+    height: 2530px;
+    width: 100%;
+    background-color: #a365a9;
+}
+article{
+    height: 2000px;
+    width:50%;
+    background-color: none;
+    display: block;
+    float: left;
+    margin-left:16%;
+}
+article .mel{
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left:170px;
+    padding-top: 30px;
+}
+article section{
+    height:220px;
+    background-color: none;
+    float: left;
+    display: block;
+    width:95%;
+    margin-left: 2.5%;
+    margin-top:25px;
+    cursor: pointer;
+}
+article section h2:hover{
+    color:#56126c;
+}
+article section img{
+    object-fit: cover;
+    object-position:0px;
+    height:100%;
+    width:43%;
+    float: left;
+}
+article section h2{
+    float: left;
+    display: block;
+    background-color:none;
+    height:90%;
+    width:50%;
+    margin-left:3.5%;
+    margin-top:1%;
+    color: black;
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+article section p{
+    float: left;
+    display: block;
+    margin-top:-30px;
+    margin-left:30px;
+    background-color:none;
+    height:25px;
+    width:125px;
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left:7px;
+    padding-top: 7px;
+    border-radius: 15px;
+    color: black;
+}
+article section .p2{
+    font-size: 20px;
+    padding-top:3.5px;
+    padding-left:10px;
+    float: right;
+    background-color:  #72418c;
+    width:auto;
+    padding-right:10px;
+    margin-right:20px;
+    border-radius: 5px;
+}
+.line{
+    height:1.5px;
+    background-color: black;
+    float: left;
+    display: block;
+    width:95%;
+    margin-left: 2.5%;
+    margin-top:25px;
+}
+.setaesq{
+    float: left;
+    height:50px;
+    margin-top: 20px;
+    margin-left:70px;
+}
+aside{
+    height:250px;
+    width:400px;
+    float: right;
+    display: block;
+    margin-right:50px;
+    margin-top: 50px;
+    color:black;
+}
+aside img{
+    object-fit: cover;
+    object-position:0px;
+    height:200px;
+    width: 400px;
+}
+aside h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:27px;
+    padding-left:40px;
+    padding-top: 5px;
+}
+aside:hover{
+    color:#56126c
+}
+/*//////////////////////////////////////////// FOOTER /////////////////////////////////////////////////*/
+footer{
+    height: 200px;
+    width:100%;
+    float: left;
+    display: block;
+    background-color:#56126c;
+}
+.logocima{
+    height:130px;
+    float: left;
+    display: block;
+    padding-top:33px;
+}
+.logobaixo{
+    float: left;
+    height: 40px;
+    margin-top:80px;
+}
+footer h3{
+    margin-top:70px;
+    margin-left:670px;
+    font-size:40px;
+    width:620px;
+}
+.seta{
+    height: 120px;
+    float: right;
+    display: block;
+    margin-right:20px;
+    margin-top:37px;
+}
+/*//////////////////////////////////////////// FOOTER /////////////////////////////////////////////////*/
+/*roxo escuro:#3C1A7D
+roxo claro:#7B057E*/
